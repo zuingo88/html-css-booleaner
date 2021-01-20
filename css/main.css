@@ -1,0 +1,121 @@
+/* regole generali */
+* {
+margin: 0;
+padding: 0;
+}
+
+/* regole header */
+header {
+  height: 100px;
+  background-color: #0261B5;
+  background-image: url(../img/pattern.png);
+  background-size: 28%;
+}
+
+#logo {
+  width: 200px; height: auto;
+  margin-top: 40px ;
+  margin-left: 100px;
+
+}
+
+/* regole main */
+main {
+  margin: 30px 100px 30px 100px;
+}
+
+/* regole section intro */
+h1 {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+#autore {
+  font-size: 15px;
+  margin: 0;
+}
+
+#data {
+  font-size: 10px;
+  padding: 0;
+}
+
+#booleaner {
+  color: #238EEC;
+}
+
+.grey {
+  color: grey;
+}
+
+#tim {
+  margin-bottom: 0;
+  padding: 0;
+}
+
+#descrizioneFoto p {
+  font-size: 9px;
+  padding: 0;
+}
+
+/* regole section corpo */
+.marginBottom {
+  margin-bottom: 20px;
+}
+
+.evidenziato {
+  background-color: yellow;
+}
+
+#lista ul {
+  list-style-position: inside;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+thead {
+  color: white;
+  background-color: #238EEC;
+}
+
+.lightBlue {
+  background-color: lightblue;
+}
+
+.larghezzaTd {
+  width: 20%;
+}
+
+/* regole section linkEsterni  */
+.marginLink {
+  margin-bottom: 10px;
+}
+
+.link {
+  width: 200px; height: 125px;
+  color: white;
+  padding: 10px;
+  background-size: contain;
+}
+
+#monitor {
+  background-image: url(../img/monitor.jpg)
+}
+
+#graph {
+  background-image: url(../img/graph.jpg)
+
+}
+
+/* regole footer */
+footer {
+   background-image: linear-gradient(to bottom, #ffffff, #d4d3eb, #a4aad9, #6c84c7, #0261b5);
+}
+
+#pp {
+  margin-top: 20px;
+  margin-left: 100px;
+  padding-bottom: 20px;
+}
